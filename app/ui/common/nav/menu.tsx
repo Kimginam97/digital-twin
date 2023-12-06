@@ -61,7 +61,7 @@ const Menu = () => {
         <div className="justify-start items-start gap-4 flex">
           <div className="justify-start items-start gap-2 flex">
             <Image
-              src="/ui/nav/circuit-board.svg"
+              src="/ui/common/nav/circuit-board.svg"
               alt="circuit-board"
               width={37}
               height={37}

@@ -8,7 +8,7 @@ const WeatherTime = () => {
           <div className="opacity-60 w-[36.20px] h-[19.03px] left-[8.57px] top-[26.97px] absolute">
             <Image
               className="w-[36.20px] h-[19.03px] left-0 top-0 absolute"
-              src="/ui/nav/rain.png"
+              src="/ui/common/nav/rain.png"
               alt="rain"
               width={36}
               height={19}
@@ -16,7 +16,7 @@ const WeatherTime = () => {
           </div>
           <Image
             className="w-14 h-[38.37px] left-0 top-0 absolute"
-            src="/ui/nav/cloud.png"
+            src="/ui/common/nav/cloud.png"
             alt="cloud"
             width={56}
             height={38}
@@ -24,7 +24,16 @@ const WeatherTime = () => {
         </div>
       </div>
       <div className="w-[54px] h-[46px] relative">
-        <Image src="/ui/nav/32.svg" alt="32" width={37} height={19} />
+        <Image
+          src="/ui/common/nav/32.svg"
+          alt="32"
+          width={37}
+          height={19}
+          style={{
+            width: 'auto',
+            height: 'auto',
+          }}
+        />
         <div className="left-[41px] top-0 absolute text-white text-sm font-normal font-['PingFang SC']">
           ℃
         </div>
@@ -35,10 +44,14 @@ const WeatherTime = () => {
       </div>
       <div className="w-[130px] h-[41px] relative">
         <Image
-          src="/ui/nav/09-01-00.svg"
+          src="/ui/common/nav/09-01-00.svg"
           alt="09-01-00"
           width={121}
           height={21}
+          style={{
+            width: 'auto',
+            height: 'auto',
+          }}
         />
         <div className="left-0 top-[28.33px] absolute text-white text-sm font-normal font-['PingFang SC'] leading-[14px]">
           10/08/2021

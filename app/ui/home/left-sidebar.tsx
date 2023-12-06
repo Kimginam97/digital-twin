@@ -1,5 +1,13 @@
+import Image from 'next/image'
+import Info from './info'
+
 const LeftSidebar = () => {
-  return <div>LeftSidebar</div>
+  return (
+    <>
+      {/* 정보 */}
+      <Info />
+    </>
+  )
 }
 
 export default LeftSidebar
