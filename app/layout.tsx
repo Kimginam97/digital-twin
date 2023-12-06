@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Nav from './ui/common/nav'
+import Nav from './ui/common/nav/nav'
 
 export const metadata: Metadata = {
   title: 'Digital-Twin',

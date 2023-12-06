@@ -1,6 +1,6 @@
-import Logo from '../logo'
-import Menu from '../menu'
-import WeatherTime from '../weather-time'
+import Logo from './logo'
+import Menu from './menu'
+import WeatherTime from './weather-time'
 
 const Nav = () => {
   return (
