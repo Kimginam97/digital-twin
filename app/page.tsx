@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Nav from './ui/common/nav/nav'
-import LeftSidebar from './ui/home/left-sidebar'
+import LeftSidebar from './ui/home/left-sidebar/left-sidebar'
 
 export default function Home() {
   return (
