@@ -8,3 +8,21 @@ body {
   background-position: top;
   background-repeat: no-repeat;
 }
+
+.link {
+  /* 기본적인 스타일 */
+  opacity: 1;
+  /* 기본적으로 투명도를 적용합니다. */
+  transition: opacity 0.3s;
+  /* 투명도 변경에 애니메이션을 추가할 수 있습니다. */
+}
+
+.link:not(.active) {
+  /* "active" 클래스가 아닐 때 투명도 적용 */
+  opacity: 0.7;
+}
+
+.link:hover {
+  opacity: 1;
+  /* 호버 시에 투명도를 없앱니다. */
+}
